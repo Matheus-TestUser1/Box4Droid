@@ -23,7 +23,7 @@ fi
 sleep 6
 done
 
-pkg update -y
+pkg update -y && pkg upgrade -y
 #pkg clean to ensure that everything installs without errors
 pkg clean
 echo ""
