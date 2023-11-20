@@ -242,6 +242,6 @@ echo -e " Uninstall-box Vai remover completamente todos os arquivos do Box4Droid
 echo ""
 
 echo -e " Isso é tudo"
-echo ""
+echo "recomendo atualizar o sistema , e instalar o libvirglrenderer pode resolver o problema de tela preta em alguns dispositivos"
 #Dar permissões para o bash do Box64
 chmod +x $PREFIX/var/lib/proot-distro/installed-rootfs/box4droid/root/box64_bash/bash
