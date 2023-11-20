@@ -181,7 +181,7 @@ if [ "$(sed '108q;d' $Rootfs/root/.bashrc)" = "export SCRIPT=proot" ]; then
 
 cd $HOME/Box4Droid/
 
-if [ "$(sed '100q;d' $Rootfs/root/.bashrc)" = "export GALLIUM_DRIVER=virpipe" ]; then
+if [ "$(sed '100q;d' $Rootfs/root/.bashrc)" = "export GALLIUM_DRIVER=virpipe glmark2-es2-drm -d" ]; then
 
 MESA_NO_ERROR=1 MESA_GL_VERSION_OVERRIDE=4.3COMPAT MESA_GLES_VERSION_OVERRIDE=3.2 virgl_test_server_android &
 
@@ -191,7 +191,7 @@ fi
 
 pkill Xvfb
 
-if [ "$(sed '100q;d' $Rootf/root/.bashrc)" = "export GALLIUM_DRIVER=virpipe" ]; then
+if [ "$(sed '100q;d' $Rootf/root/.bashrc)" = "export GALLIUM_DRIVER=virpipe glmark2-es2-drm -d" ]; then
 
 pkill virgl_test_serv
 
