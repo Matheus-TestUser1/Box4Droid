@@ -84,6 +84,12 @@ echo ""
 echo -e " root-repo installed."
 
 echo ""
+echo -e "installing vulkan && virgl..."
+
+echo ""
+
+pkg install clvk glfw mesa-vulkan-icd-swrast swiftshader vulkan-extension-layer vulkan-extension-layer-static vulkan-headers vulkan-loader vulkan-loader-generic vulkan-tools
+pkg install vulkan-loader-android 
 
 echo -e " Installing additional packages..."
 
