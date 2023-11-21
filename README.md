@@ -10,7 +10,7 @@ Currently, the script provides two ways to run RootFS, ```Proot``` and ```Chroot
 
 # How to install?  
 
-First you need to install [Termux](https://f-droid.org/en/packages/com.termux) and [Termux-x11](https://github.com/Herick75/Box4Droid/releases/download/0.0.3-alpha/Termux-x11.apk).  After installing them, just copy the command `curl -o install https://raw.githubusercontent.com/Herick75/Box4Droid/main/Scripts/install && chmod +x install && ./install` and paste it in the Termux terminal, after you paste the command in Termux, choose an installation language, and then select your preferred version, and wait until the installation is completed.
+First you need to install [Termux](https://f-droid.org/en/packages/com.termux) and [Termux-x11](https://github.com/Herick75/Box4Droid/releases/download/0.0.3-alpha/Termux-x11.apk).  After installing them, just copy the command `curl -o install https://raw.githubusercontent.com/Matheus-TestUser1/Box4Droid/main/Scripts/install && chmod +x install && ./install` and paste it in the Termux terminal, after you paste the command in Termux, choose an installation language, and then select your preferred version, and wait until the installation is completed.
 
 # How to start Box4Droid ?
 
