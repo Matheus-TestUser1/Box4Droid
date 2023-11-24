@@ -96,7 +96,7 @@ echo -e "installing vulkan && virgl..."
 echo ""
 
 pkg install clvk glfw mesa-vulkan-icd-swrast swiftshader vulkan-extension-layer vulkan-extension-layer-static vulkan-headers vulkan-loader vulkan-loader-generic vulkan-tools
-pkg install vulkan-loader-android 
+pkg install vulkan-loader-android pkg install virglrenderer virglrenderer-android qemu-utils qemu-user-i386 qemu-user-x86-64
 echo ""
 
 echo -e "\x1b[33m Baixando e instalando o pacote do Termux-x11 ..."
