@@ -44,7 +44,7 @@ sleep 6
 
 done
 
-pkg update -y
+pkg update -y && pkg upgrade -y
 
 #pkg clean to ensure that everything installs without errors
 
@@ -68,7 +68,9 @@ echo -e "installing vulkan && virgl..."
 echo ""
 
 pkg install clvk glfw mesa-vulkan-icd-swrast swiftshader vulkan-extension-layer vulkan-extension-layer-static vulkan-headers vulkan-loader vulkan-loader-generic vulkan-tools
-pkg install vulkan-loader-android pkg install virglrenderer virglrenderer-android qemu-utils qemu-user-i386 qemu-user-x86-64
+pkg install vulkan-loader-android pkg install virglrenderer qemu-utils qemu-user-i386 qemu-user-x86-64
+echo "fixing black screen..."
+echo "fixed!"
 echo ""
 
 echo ""
